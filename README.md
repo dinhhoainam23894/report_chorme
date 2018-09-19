@@ -1,6 +1,6 @@
 # Báo cáo trải nghiệm người dùng Chrome
 
-Báo cáo trải nghiệm người dùng Chrome cung cấp chỉ số trải nghiệm người dùng cho cách người dùng Chrome trong thế giới thực trải nghiệm các điểm đến phổ biến trên web.
+Báo cáo trải nghiệm người dùng Chrome cung cấp chỉ số trải nghiệm người dùng cho cách người dùng Chrome trong thực tế trải nghiệm các điểm đến phổ biến trên web.
 
 ## Methodology
 Báo cáo trải nghiệm người dùng Chrome được hỗ trợ bởi việc đo lường số liệu trải nghiệm người dùng chính trên web công cộng, được tổng hợp từ những người dùng đã chọn tham gia đồng bộ hóa lịch sử duyệt web của họ, chưa thiết lập cụm mật khẩu đồng bộ hóa và đã bật báo cáo thống kê sử dụng. Dữ liệu kết quả được cung cấp qua:
@@ -11,7 +11,7 @@ Báo cáo trải nghiệm người dùng Chrome được hỗ trợ bởi việc
 ## Số liệu
 Số liệu cung cấp bởi Báo cáo trải nghiệm người dùng Chrome công khai được lưu trữ trên được lưu trữ trên Google BigQuery Metrics đđược cung cấp bởi các API nền tảng web chuẩn được trình duyệt hiện đại hiển thị và được tổng hợp theo độ phân giải gốc. Chủ sở hữu trang web muốn phân tích chi tiết hơn (phân tích cấp độ URL) và hiểu rõ hơn về hiệu suất trang web của họ và có thể sử dụng cùng một API để thu thập dữ liệu đo lường thực tế chi tiết (RUM) cho nguồn của chính họ.
 
-Lưu ý: Hiện tại, Báo cáo trải nghiệm người dùng Chrome tập trung vào việc tải hiệu suất. Thời gian tới,  chúng tôi hy vọng sẽ thêm nhiều chỉ số và nhiều khía cạnh hơn, cả hai đều cung cấp thông tin chi tiết hơn về tải và các yếu tố quan trọng khác ảnh hưởng nhiều nhất đến trải nghiệm người dùng.
+Lưu ý: Hiện tại, Báo cáo trải nghiệm người dùng Chrome tập trung vào hiệu suất tải trang. Thời gian tới,  chúng tôi hy vọng sẽ thêm nhiều chỉ số và nhiều khía cạnh hơn, cả hai đều cung cấp thông tin chi tiết hơn về tải và các yếu tố quan trọng khác ảnh hưởng nhiều nhất đến trải nghiệm người dùng.
 
 Để được hướng dẫn về số liệu nào cần theo dõi và tối ưu hóa và các phương pháp hay nhất về cách diễn giải dữ liệu đo lường người dùng thực, hãy tham khảo tài liệu hiệu suất tập trung vào người dùng của chúng tôi.
 
@@ -68,7 +68,7 @@ Ví dụ: sự khác biệt về dân số người dùng truy cập nguồn c�
 
 Khi biểu hiện các so sánh trực tiếp giữa các trang nguồn, điều quan trọng là phải thống kê và kiểm soát lưu lượng người dùng khác nhau: phân chia từ những khía cạnh được cung cấp, ví dụ như là loại thiết bị và loại kết nối, cùng với đó cân nhắc những yếu tốt bên ngoài như là lượng kết nối, các quốc gia truy cập vào trang nguồn, vân vân.
 
-### Xem xét sự khác biệt kích thước truy cập giữa các nguồn trang
+### Xem xét sự khác biệt lượng truy cập giữa các nguồn trang
 Báo cáo trải nghiệm người dùng Chrome tổng hợp dữ liệu cho mỗi nguồn gốc, với các giá trị "mật độ" trên tất cả các biểu đồ khía cạnh-chỉ số tổng hợp với giá trị là "1.0". Điều này cung cấp thông tin chi tiết về phân phối trải nghiệm trên các khía cạnh chính cho một nguồn duy nhất.
 
 
